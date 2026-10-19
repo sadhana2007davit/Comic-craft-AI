@@ -1,0 +1,11 @@
+# ComicCraft - core dependencies
+# Install with:  pip install -r requirements.txt
+
+fastapi>=0.115.0            # web framework
+uvicorn[standard]>=0.30.0   # ASGI server
+jinja2>=3.1.4               # HTML templates
+python-multipart>=0.0.9     # HTML form parsing
+python-dotenv>=1.0.1        # loads the .env file
+google-genai>=2.3.0         # Google Gen AI SDK (Gemini, Interactions API)
+fpdf2>=2.8.1                # PDF export (maintained successor of "fpdf")
+Pillow>=10.4.0              # image handling

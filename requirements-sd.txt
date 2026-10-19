@@ -1,0 +1,12 @@
+# ComicCraft - OPTIONAL packages for local Stable Diffusion illustrations.
+# Large download (PyTorch ~2 GB + model weights ~4 GB on first run).
+# Install with:  pip install -r requirements-sd.txt
+#
+# NVIDIA GPU users: install the CUDA build of PyTorch first, see
+# https://pytorch.org/get-started/locally/
+
+torch
+diffusers>=0.30.0
+transformers>=4.44.0
+accelerate>=0.33.0
+safetensors>=0.4.4

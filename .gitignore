@@ -1,0 +1,16 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+comiccraft-env/
+env/
+venv/
+.venv/
+
+# Generated files
+static/panels/*
+static/exports/*
+!static/panels/.gitkeep
+!static/exports/.gitkeep
